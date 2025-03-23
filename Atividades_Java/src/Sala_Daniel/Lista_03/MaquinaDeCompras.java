@@ -5,8 +5,8 @@ public class MaquinaDeCompras {
 
     public static void main(String[] args) {
         
-        String[] itens = {"Coxinha", "Empada", "Doce de chocolate", "Bolo", "Suco de laranja", "Coca-cola"};
-        double[] precos = {5.00, 4.00, 8.00, 10.00, 3.50, 4.50};
+        String[] itens = {"Salgadinhos", "Doces", "Sucos", "Refrigerantes"};
+        double[] precos = {10.00, 15.00, 5.00, 7.00};
         double valorPago = 0, totalCompra = 0;
         
         Scanner sc = new Scanner(System.in);
@@ -35,7 +35,6 @@ public class MaquinaDeCompras {
             System.out.println("Você escolheu: " + itens[escolha - 1] + " - R$ " + precos[escolha - 1]);
         }
 
-        // Exibe o valor total da compra
         System.out.println("O valor total foi de: R$ " + String.format("%.2f", totalCompra));
 
         // Definindo as cédulas e a quantidade de cédulas
