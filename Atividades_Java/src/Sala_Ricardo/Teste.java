@@ -1,4 +1,4 @@
-package Sala_Daniel;
+package Sala_Ricardo;
 
 public class Teste {
  
