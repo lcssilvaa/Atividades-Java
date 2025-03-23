@@ -1,0 +1,24 @@
+package Sala_Daniel.Lista_02;
+import java.util.Scanner;
+
+public class MediaNotas {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        String[] nome = {"1°", "2°", "3°", "4°"};
+        float[] nota = new float[4];
+        float somaNotas = 0;  
+
+        for(int x = 0; x < 4; x++) {
+            System.out.println("Digite a " + nome[x] + " nota:");
+            nota[x] = sc.nextFloat();
+
+            somaNotas += nota[x];    
+        }
+            float media = somaNotas / 4;
+
+            System.out.println("A média das notas bimestrais é igual a: " + media);
+
+            sc.close();
+    } 
+}

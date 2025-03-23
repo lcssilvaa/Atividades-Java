@@ -1,0 +1,16 @@
+package Sala_Daniel.Lista_02;
+import java.util.Scanner;
+
+public class LerNum {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Escolha um número: ");
+        int n1 = sc.nextInt();
+
+        System.out.println("O número informado foi: " + n1);
+        
+        sc.close();
+    }
+}
