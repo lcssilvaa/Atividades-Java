@@ -5,7 +5,7 @@ public class Equacao2grau {
 
     public static void main(String[] args) {
         
-        double a, b, c, delta, x, x1 = 0, x2 = 0, realParte, imaginarioParte;
+        double a, b, c, delta, x1 = 0, x2 = 0;
 
         Scanner sc = new Scanner(System.in);
 
@@ -44,15 +44,15 @@ public class Equacao2grau {
         }
 
         if (delta == 0) {
-            x = -b / (2 * a);
-            System.out.println("A única raiz real é: x = " + x);
+            x1 = -b / (2 * a);
+            System.out.println("A única raiz real é: x = " + x1);
         }
 
         if (delta < 0) {
-            realParte = -b / (2 * a);
-            imaginarioParte = Math.sqrt(-delta) / (2 * a);
+            x1 = -b / (2 * a);
+            x2 = Math.sqrt(-delta) / (2 * a);
             System.out.println("Esta equação não possui raízes reais:");
-            System.out.println("As raízes complexas são: x1 = " + realParte + " + " + imaginarioParte + "i e x2 = " + realParte + " - " + imaginarioParte + "i");
+            System.out.println("As raízes complexas são: x1 = " + x1 + " + " + " x2: " + x2);
         }
         
         sc.close();
