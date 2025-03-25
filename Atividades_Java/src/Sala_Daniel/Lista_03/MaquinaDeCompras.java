@@ -11,13 +11,12 @@ public class MaquinaDeCompras {
         
         Scanner sc = new Scanner(System.in);
 
-        // Exibição dos itens e preços
         System.out.println("Itens disponíveis para compra:");
         for (int x = 0; x < itens.length; x++) {
             System.out.println((x + 1) + ". " + itens[x] + " - R$ " + precos[x]);
         }
 
-        // Escolha de itens
+        
         while (true) {
             System.out.println("\nEscolha um item para comprar: 1 a " + itens.length + " ou digite 0 para finalizar");
             int escolha = sc.nextInt();
@@ -37,15 +36,11 @@ public class MaquinaDeCompras {
 
         System.out.println("O valor total foi de: R$ " + String.format("%.2f", totalCompra));
 
-        // Definindo as cédulas e a quantidade de cédulas
         double[] cedulas = {50.00, 20.00, 10.00, 5.00, 2.00, 1.00};
-        int[] quantidades = new int[cedulas.length];
-
-        // Solicitar pagamento
+       
         while (valorPago < totalCompra) {
             System.out.println("Como você deseja pagar?:");
             
-            // Exibe as opções de cédulas
             for (int y = 0; y < cedulas.length; y++) {
                 System.out.println((y + 1) + ". R$ " + cedulas[y]);
             }
@@ -67,7 +62,6 @@ public class MaquinaDeCompras {
             System.out.println("Valor pago até agora: R$ " + String.format("%.2f", valorPago));
         }
 
-        // Verificando o troco
         double troco = valorPago - totalCompra;
         System.out.println("\nPagamento efetuado com sucesso!");
         System.out.println("Valor total: R$ " + String.format("%.2f", totalCompra));
