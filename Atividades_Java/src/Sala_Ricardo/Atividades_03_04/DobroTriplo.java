@@ -14,6 +14,8 @@ public class DobroTriplo {
         System.out.println("O dobro de " + n1 + " é: " + (n1 * 2));
         System.out.println("O triplo de " + n1 + " é: " + (n1 * 3));
         System.out.println("A terça parte de " + n1 + " é: " + (n1 / 3));
+
+        sc.close();
     }
     
 }

@@ -6,7 +6,7 @@ public class MaiorNum1 {
 
         Scanner sc = new Scanner(System.in);
 
-        float [] num = new float[5];
+        float [] num = new float[1];
         float maior = 0;
         String[] ordem = new String[] {"1°", "2°", "3°", "4°", "5°"};
 
@@ -24,5 +24,6 @@ public class MaiorNum1 {
      }
          System.out.println("O maior número é: " + maior);
     
+         sc.close();
 }
 }

@@ -26,6 +26,8 @@ public class UsuarioSenha {
         }
 
         }
+
+        sc.close();
     }
 }
 

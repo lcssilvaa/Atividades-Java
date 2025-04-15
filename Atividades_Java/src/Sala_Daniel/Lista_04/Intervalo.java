@@ -1,19 +1,21 @@
-package Sala_Ricardo.Atividades_03_04;
-
 import java.util.Scanner;
 
-public class SucessorAntecessor {
+public class Intervalo {
 
     public static void main(String[] args) {
         
+        int n1, n2;
         Scanner sc = new Scanner(System.in);
-
-        int n1;
 
         System.out.println("Digite um número");
         n1 = sc.nextInt();
 
-        System.out.println("O antecessor de " + n1 + " é: " + (n1 - 1) + " e o sucessor é: " + (n1 + 1));
+        System.out.println("Digite outro número");
+        n2 = sc.nextInt();
+
+        for(int x = n1; x <= n2; x++){
+            System.out.println(x);
+        }
 
         sc.close();
     }

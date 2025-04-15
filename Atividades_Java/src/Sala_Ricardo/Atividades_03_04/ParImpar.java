@@ -19,5 +19,7 @@ public class ParImpar {
     else {
         System.out.println("O número é ímpar!");
         }
+
+        sc.close();
     } 
 }

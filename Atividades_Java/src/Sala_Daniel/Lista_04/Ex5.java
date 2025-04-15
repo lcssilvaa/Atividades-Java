@@ -24,5 +24,8 @@ public class Ex5 {
             System.out.println("São necessários " + anos + " anos para que am população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.");
             System.out.println("");
         }
+        
+        s.close();
+
     }
 }

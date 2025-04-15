@@ -21,6 +21,8 @@ public class PedirNota {
         }
 
         }
+
+        sc.close();
     }
 }
        

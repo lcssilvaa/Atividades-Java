@@ -32,6 +32,7 @@ public class Equacao2grau {
             double eq1grau = -c / b;  // Fórmula correta para equação de 1º grau: b * x + c = 0, logo x = -c / b
             System.out.println("O valor da equação é: x = " + eq1grau);
             return; 
+            
         }
 
         delta = (b * b) - (4 * a * c);

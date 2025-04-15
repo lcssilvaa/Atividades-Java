@@ -75,5 +75,7 @@ public class Sonic {
             else {
                 System.out.println("\nO Shadow venceu o time do Sonic");
             }
+
+            sc.close();
         }
 }

@@ -20,5 +20,7 @@ public class MediaDisciplina {
 
         System.out.println("A média entre as notas é: " + media);
 
+        sc.close();
+        
         }
     }

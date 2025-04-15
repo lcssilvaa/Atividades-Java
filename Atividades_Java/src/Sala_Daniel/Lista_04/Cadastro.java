@@ -73,5 +73,7 @@ public class Cadastro {
         System.out.println("Seu salário é: " + salario);
         System.out.println("Seu sexo é: " + sexo);
         System.out.println("Seu estado civil é: " + estadoCivil);
+
+        sc.close();
     }
 }
