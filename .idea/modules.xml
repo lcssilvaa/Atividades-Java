@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Atividades.iml" filepath="$PROJECT_DIR$/.idea/Atividades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades_Java/Atividades_Java.iml" filepath="$PROJECT_DIR$/Atividades_Java/Atividades_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Lista_07/Lista_07.iml" filepath="$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Lista_07/Lista_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Lista_08/Lista_08.iml" filepath="$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Lista_08/Lista_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Lista_10/Lista_10.iml" filepath="$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Lista_10/Lista_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Lista_11/Lista_11.iml" filepath="$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Lista_11/Lista_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Sala_Daniel.iml" filepath="$PROJECT_DIR$/Atividades_Java/src/Sala_Daniel/Sala_Daniel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades_Java/src/Sala_Ricardo/Sala_Ricardo.iml" filepath="$PROJECT_DIR$/Atividades_Java/src/Sala_Ricardo/Sala_Ricardo.iml" />
+    </modules>
+  </component>
+</project>
